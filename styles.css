@@ -18,6 +18,18 @@ h2{
   line-height: 1.5;
   color: #444;
 }
+
+h3 {
+  
+  font-size: 20px;
+  font-weight: 300;
+  color: #555;          
+  font-style: italic;    
+  line-height: 1.6;
+  margin: 20px;
+  max-width: 800px;
+}
+
   .signo {
   display: flex;
   align-items: center;
@@ -46,6 +58,7 @@ h2{
   display: block;
    cursor: pointer;
 }
+<<<<<<< HEAD
 .img-aries:hover,
 .img-capricornio:hover,
 .img-leao:hover,
@@ -58,3 +71,18 @@ h2{
   transform: scale(1.1) translateY(-10px);
   box-shadow: 0px 15px 25px rgba(0,0,0,0.3);
 }
+=======
+.dourado { color: gold; }
+.vermelho { color: red; }
+.marrom { color: #8B4513; }
+.preto { color: rgba(8, 8, 8, 0.653); }
+.verde { color: green; }
+.violeta { color: violet; }
+.azul { color: blue; }
+.celeste { color: #00CED1; }
+.amarelo { color: yellow; }
+.branco { color: rgba(167, 164, 164, 0.903); }
+.rosa { color: rgb(161, 26, 96); }
+
+
+>>>>>>> 4f92cef38a68886988f813994704649edc6271d0
