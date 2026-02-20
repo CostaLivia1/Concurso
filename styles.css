@@ -40,16 +40,29 @@ h2{
 .img-saturno,
 .img-sol,
 .img-constelacao{
-  height: auto;
   width: 200px;
   height: 200px;
   object-fit: cover;
   display: block;
   transition: all 0.4s ease;
   cursor: pointer;
-   transform: scale(1.1) translateY(-10px);
-  box-shadow: 0px 15px 25px rgba(0,0,0,0.3);
-
 }
-
-
+.img-aries:hover,
+.img-capricornio:hover,
+.img-leao:hover,
+.img-sag:hover,
+.img-touro:hover,
+.img-escor:hover,
+.img-saturno:hover,
+.img-sol:hover,
+.img-constelacao:hover{
+  transform: scale(1.1) translateY(-10px);
+  box-shadow: 0px 15px 25px rgba(0,0,0,0.3);
+}
+body{
+  background-image: url("./img/fundo.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
