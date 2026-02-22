@@ -16,18 +16,19 @@ h2{
   max-width: 800px;
   margin: 0 auto 40px;
   line-height: 1.5;
-  color: #444;
+  color: #d7d3d3;
 }
 
 h3 {
   
-  font-size: 20px;
+  font-size: 15px;
   font-weight: 300;
-  color: #555;          
+  color: #d3d0d0;          
   font-style: italic;    
-  line-height: 1.6;
-  margin: 20px;
+  line-height: 2.0;
+  margin: 0 auto 40px;
   max-width: 800px;
+  text-align: center;
 }
 
   .signo {
@@ -51,27 +52,42 @@ h3 {
 .img-escor,
 .img-saturno,
 .img-sol,
-.img-constelacao{
+.img-constelacao,
+.img-peixes,
+.img-chacras,
+.img-libra,
+.img-cancer,
+.img-virgem,
+.img-gemeos,
+.img-aquario{
   width: 200px;
   height: 200px;
   object-fit: cover;
   display: block;
-   cursor: pointer;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
 }
-<<<<<<< HEAD
 .img-aries:hover,
 .img-capricornio:hover,
 .img-leao:hover,
 .img-sag:hover,
 .img-touro:hover,
+.img-libra:hover,
+.img-cancer:hover,
+.img-virgem:hover,
+.img-gemeos:hover,
+.img-aquario:hover,
 .img-escor:hover,
 .img-saturno:hover,
 .img-sol:hover,
-.img-constelacao:hover{
-  transform: scale(1.1) translateY(-10px);
+.img-peixes:hover,
+.img-constelacao:hover,
+.img-chacras:hover,
+.img-orixas:hover,
+.img-mandala:hover{
+  transform: scale(1.1) translateY(-10px) rotate(2deg);
   box-shadow: 0px 15px 25px rgba(0,0,0,0.3);
 }
-=======
 .dourado { color: gold; }
 .vermelho { color: red; }
 .marrom { color: #8B4513; }
@@ -83,6 +99,15 @@ h3 {
 .amarelo { color: yellow; }
 .branco { color: rgba(167, 164, 164, 0.903); }
 .rosa { color: rgb(161, 26, 96); }
+.prata{ color:rgb(192,192,192);}
+.cinza{ color:  rgb(51,51,51); }
+.azulerosa{color: rgb(192, 128, 255);}
+.amarelosol{color: #FFB200;}
+.Energia{color: #FF6F61;}
+.Mandala{color: #6CC4A1;}
 
 
->>>>>>> 4f92cef38a68886988f813994704649edc6271d0
+body {
+ background-color: #1e1e1e;
+  color: #fff;
+}
